@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="js/pokedex.js"></script>
+    <title>Projeto Pokedex</title>
 </head>
 <body>
-    Projeto teste git
+
+    <header>
+        <h1>TARGET TRUST</h1>
+    </header>
+
+    <main>
+        <div class="caixa-de-busca">
+            <input class="input-busca" type="text" name="" id="idPokemon">
+            <button onclick="buscarPokemonEMostrarNaTela()" class="botao-buscar">Buscar</button>
+        </div>
+
+        <div class="pokedex">
+            <div class="luz"></div>
+            <div class="visor">
+                <img id="imagemPokemon" src="" alt="">
+            </div>
+            <div class="informacoes">
+                <div id="nomePokemon"></div>
+                <div id="tipos"></div>
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>

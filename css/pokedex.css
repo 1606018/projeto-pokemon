@@ -1,0 +1,62 @@
+
+/* CAIXA BUSCA */
+.caixa-de-busca {
+    background-color: rgb(217, 69, 69);
+    width: 300px;
+    height: 70px;
+    padding: 10px;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+
+.caixa-de-busca > input {
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    outline: none;
+}
+
+.caixa-de-busca > button {
+    display: block;
+    padding: 5px 20px;
+    margin: 5px auto;
+}
+
+
+/* POKEDEX */
+.pokedex {
+    background-color: rgb(217, 69, 69);
+    height: 350px;
+    width: 300px;
+    margin: 15px auto 0px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.luz {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(92, 92, 191);
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: solid black 2px;
+}
+
+.visor {
+    background-color: rgb(199, 211, 207);
+    height: 40%;
+    border-radius: 10px;
+    border: solid white 10px;
+    text-align: center;
+}
+
+.informacoes {
+    /* padding: 10px; */
+    margin-top: 20px;
+    background-color: rgb(64, 64, 64);   
+    height: 40%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
